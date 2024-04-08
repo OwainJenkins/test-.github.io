@@ -71,7 +71,7 @@ $palette: (
 @import "buttons";
 
 // add small bits of css to the custom.scss file
-@import "custom";
+// @import "custom";
 
 :root {
   --theme-colour: {{ theme }};
