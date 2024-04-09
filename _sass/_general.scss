@@ -30,6 +30,7 @@ a {
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
   font-weight: bold;
+  focus{ color: red; }
   &:hover {
     color: var(--secondary-text-colour);
     text-decoration: underline;
