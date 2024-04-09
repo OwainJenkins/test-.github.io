@@ -31,7 +31,7 @@ a {
   transition: color .3s ease;
   font-weight: bold;
   &:focus{ 
-    outline-color: var(--border_link_color);
+    outline-color: var(border_link_color);
   }
   &:hover {
     color: var(--secondary-text-colour);
