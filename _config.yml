@@ -40,6 +40,7 @@ link_color: '#007485'
 background_color: '#fbfbfb'
 page_color: '#ffffff'
 border_color: '#d7d7d7'
+border_link_color: '#FFDD00'
 
 t:
   en:
