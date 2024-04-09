@@ -31,7 +31,7 @@ a {
   transition: color .3s ease;
   font-weight: bold;
   &:focus{ 
-    color: red; 
+    outline-color: #FFDD00; 
   }
   &:hover {
     color: var(--secondary-text-colour);
