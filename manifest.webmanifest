@@ -1,0 +1,6 @@
+{
+  "icons": [
+    { "src": "/assets/favicons/nrw_logo_device_colour-01.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/assets/favicons/nrw_logo_device_colour-01.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
