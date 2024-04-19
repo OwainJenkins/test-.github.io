@@ -1,6 +1,6 @@
 
 email: ""
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/test-.github.io" # the subpath of your site, e.g. /blog
 url: "https://owainjenkins.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -46,7 +46,7 @@ t:
     title: Natural Resources Wales lab
     description: "Describe your site"
     language: English
-    root: /en
+    root: /test-.github.io/en
     welcome: Welcome to
     team: team
     by: by
@@ -55,7 +55,7 @@ t:
     title: Lab Cyfoeth Naturiol Cymru 
     description: "Disgrifiwch eich gwefan"
     language: Cymraeg
-    root: /cy
+    root: /test-.github.io/cy
     welcome: Croeso i
     team: tîm
     by: gan
