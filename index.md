@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: splash
 lang: en
 hidetitle: True
 
