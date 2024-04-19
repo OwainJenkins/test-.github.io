@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: landing
 lang: en
 hidetitle: True
 redirect: "/test-.github.io/en/"
