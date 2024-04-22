@@ -26,6 +26,10 @@
   align-items: center;
   justify-content: center;
 
+  a:link{
+    color: #ffffff;
+  }
+
   &:hover {
     background: var(--button-hover-colour);
     color: var(--light-text-colour);
