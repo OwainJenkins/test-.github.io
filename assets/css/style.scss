@@ -35,6 +35,7 @@ $font: (
 {% assign text_colour = site.text_color | default: '#0A0908' %}
 {% assign secondary_text_colour = site.secondary_text_color | default: '#20201D' %}
 {% assign link_colour = site.link_color | default: '#3E81A3' %}
+{% assign secondary_link_colour = site.secondary_link_colour | default: '#ffffff' %}
 {% assign page_colour = site.page_color | default: '#ffffff' %}
 {% assign border_colour = site.border_color | default: '#d7d7d7' %}
 {% assign background_colour = site.background_color | default: '#fbfbfb' %}
@@ -48,6 +49,7 @@ $palette: (
   border:    {{ border_colour }},
   bg:        {{ background_colour }},
   linkcolour: {{ link_colour }},
+  secondarylinkcolor: {{secondary_link_colour}};
   page:       {{ page_colour }}
 );
 
