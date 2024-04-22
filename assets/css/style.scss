@@ -90,7 +90,7 @@ $palette: (
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-top: 0;
- //  margin-bottom: calc(var(--vertical-spacing) * 0.6666666667);
+ margin-bottom: calc(var(--vertical-spacing) * 0.6666666667);
   font-weight: 400;
   font-size: var(--small-screen-font-size);
   line-height: 1.3125;
