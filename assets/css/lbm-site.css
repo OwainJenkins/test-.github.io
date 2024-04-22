@@ -170,7 +170,7 @@
   /* needs this because it is behind the line height of big heading */
   position: relative;
   margin-left: clamp(6px, 1vw, 24px);
-  z-index: 1;
+  z-index: -1;
 }
 
 .lbm-footer p {
