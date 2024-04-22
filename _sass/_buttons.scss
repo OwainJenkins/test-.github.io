@@ -22,9 +22,10 @@
   height: 49px;
   line-height: 1;
   text-align: center;
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
+  --webkit-appearance: none;
 
   a:link{
     color: #ffffff;
