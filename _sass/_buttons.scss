@@ -16,7 +16,7 @@
   font-weight: bold;
   padding: 5px 15px;
   border-radius: 3px;
-  cursor: pointer;
+  // cursor: pointer;
   text-decoration: none;
   border: 1px solid;
   height: 49px;
@@ -30,8 +30,8 @@
     color: #ffffff;
     text-decoration:none;
     display: block;
-    height: 60.6px;
-    width: 117.65px;
+    height: 100%;
+    width: 100%;
   }
 
   &:hover {
