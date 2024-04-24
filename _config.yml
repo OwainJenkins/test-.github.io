@@ -51,7 +51,8 @@ t:
     team: team
     by: by
     share: share
-    top : Top
+    top : top
+    contact : contact us
   cy:
     title: Lab Cyfoeth Naturiol Cymru 
     description: "Disgrifiwch eich gwefan"
@@ -61,4 +62,5 @@ t:
     team: tîm
     by: gan
     share: rhannu
-    top : I fyny
+    top : i fyny
+    contact : cysylltu â ni
