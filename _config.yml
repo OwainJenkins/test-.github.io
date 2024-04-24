@@ -53,6 +53,8 @@ t:
     share: share
     top : top
     contact : contact us
+    nrw : nrw
+    power : powered by
   cy:
     title: Lab Cyfoeth Naturiol Cymru 
     description: "Disgrifiwch eich gwefan"
@@ -64,3 +66,5 @@ t:
     share: rhannu
     top : i fyny
     contact : cysylltu â ni
+    nrw : cnc
+    power : wedi ei bweru gan
