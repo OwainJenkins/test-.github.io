@@ -53,7 +53,7 @@ t:
     share: share
     top : top
     contact : contact us
-    nrw : nrw
+    nrw : NRW
     power : powered by
   cy:
     title: Lab Cyfoeth Naturiol Cymru 
@@ -66,5 +66,5 @@ t:
     share: rhannu
     top : i fyny
     contact : cysylltu â ni
-    nrw : cnc
+    nrw : CNC
     power : wedi ei bweru gan
