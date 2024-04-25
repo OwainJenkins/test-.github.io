@@ -57,6 +57,7 @@ t:
     nrw : NRW
     power : powered by
     menu: menu
+    skip: Skip To Main Content
   cy:
     title: Lab Cyfoeth Naturiol Cymru 
     description: "Disgrifiwch eich gwefan"
@@ -72,3 +73,4 @@ t:
     nrw : CNC
     power : wedi ei bweru gan
     menu: bwydlen
+    skip: Diweddaru Dewisiadau Cwci
