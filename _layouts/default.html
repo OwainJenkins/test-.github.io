@@ -24,20 +24,7 @@
 <body class="lang-{{page.lang}}">
   <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-  const BaseLayout = ({ children }) => {
-    return (
-      <div className={styles.baseLayoutContainer}>
-        <a className={styles.skipNavigationLink} href="#main-content">
-          Skip Navigation
-        </a>
-        <SiteHeader />
-        <main id="main-content" className={styles.mainElement} tabIndex={-1}>
-          {children}
-        </main>
-        <SiteFooter />
-      </div>
-    );
-  };
+
 </head>
 
   <header class="app-top-bar">
