@@ -12,9 +12,69 @@
   <meta http-equiv="refresh" content="0;URL='{{ page.redirect }}'" /> 
   {% endif %}
 
-  {% if site.favicon and site.favicon != "" %}
-  <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/png" />
-  {% endif %}
+ <!-- Favicon -->
+ <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+ <link rel="icon" href="/favicon.ico" sizes="any">
+ <link rel="icon" type="image/x-icon" href="/assets/favicons/favicon.ico">
+ <link rel="icon" href="/assets/favicons/favicon.svg" type="image/svg+xml">
+ <link rel="icon" href="assets/favicons/nrw_logo_device_colour-01.png" />
+ <link rel="manifest" href="/manifest.webmanifest">
+
+ <link rel="stylesheet" media="all" href="{{site.baseurl}}/assets/css/app.css" />
+ <script>
+/**
+* The link that triggers the
+* back to top behaviour.
+* @type {HTMLElement}
+*/
+const backToTopButton = document.querySelector('[data-js-hook="back-to-top-button"]');
+
+/**
+* A list of all focusable elements
+* on the page.
+* @type {NodeList}
+*/
+const focusableElements = document.querySelectorAll('button, a, input, select, textarea, [tabindex]:not([tabindex="-1"])');
+
+/**
+* The options used in the native
+* scrollTo method.
+* @type {Object}
+*/
+const scrollOptions = {
+ top: 0,
+ left: 0,
+ behavior: 'smooth'
+};
+
+/**
+* Whether the device supports
+* smooth scroll, or not.
+* @type {Boolean}
+*/
+const supportsNativeSmoothScroll = 'scrollBehavior' in document.documentElement.style;
+
+/**
+* Handles moving the user back to the
+* top of the document.
+* @param event the event object passed in when
+* clicking on the button / link.
+*/
+function moveToTop(event) {
+ event.preventDefault();
+
+ // Scroll to top.
+ supportsNativeSmoothScroll ? window.scrollTo(scrollOptions) : window.scrollTo(scrollOptions.left, scrollOptions.top);
+
+ // Focus the first focusable element.
+ focusableElements[0].focus({
+   preventScroll: true,
+ })
+}
+
+backToTopButton.addEventListener('click', moveToTop);
+
+ </script>
 
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
