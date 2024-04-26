@@ -325,7 +325,7 @@ video {
   box-sizing: border-box;
 	color: _palette(primary);
 	padding: 0;
-	position: relative;
+	position: static;
 	height: 36px;
   width: 36px;
   -webkit-transition: border-color .3s, color .3s;
