@@ -333,7 +333,10 @@ video {
 	transition: border-color .3s, color .3s;
 
   &:hover,
-	&:focus,
+	&:focus{
+    height:auto;
+    width:auto;
+  }
 	&:active {
 		border-color: _palette(theme);
     color: _palette(theme);
