@@ -333,10 +333,7 @@ video {
   -webkit-transition: border-color .3s, color .3s;
 	transition: border-color .3s, color .3s;
 
-  &:hover{
-    background: var(--button-hover-colour);
-    color: var(--light-text-colour);
-  }
+  &:hover,
 
 	&:focus{
     height:auto;
