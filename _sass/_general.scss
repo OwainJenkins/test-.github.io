@@ -320,11 +320,11 @@ video {
 #menu-close,
 .back-to-top {
 	background: 0;
-  border: 1px solid var(--border-colour);
+  border: 5px solid var(--border-colour);
   border-radius: 3px;
   box-sizing: border-box;
 	color: _palette(primary);
-	padding: 10;
+	padding: 20;
 	position: fixed;
 	height: 36px;
   width: 36px;
