@@ -33,9 +33,7 @@
   text-decoration: none;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  position: fixed;
   display: inline-flex;
   align-items: center;
   &:hover {
@@ -51,9 +49,8 @@
 
   .back-to-top {
     margin: 0;
-    position: absolute;
+    position: fixed;
     right: 0;
-    bottom: 0;
     //top: 87%;
     //-webkit-transform: translateY(-87%);
     //transform: translateY(-87%);
