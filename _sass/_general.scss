@@ -337,12 +337,13 @@ video {
 
 	&:focus,
 
-	/*&:active {
+	&:active,
+ /* {
 		border-color: _palette(theme);
     color: _palette(theme);
 		outline: 0;
-	        }
-  }*/
+	        }*/
+  
 
 /* Custom icons */
 .icon-menu {
