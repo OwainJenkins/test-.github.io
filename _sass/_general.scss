@@ -337,6 +337,7 @@ video {
 	&:focus{
     height:auto;
     width:auto;
+    box-shadow: 0 0 0 4px #5a01a7;
   }
 	&:active {
 		border-color: _palette(theme);
