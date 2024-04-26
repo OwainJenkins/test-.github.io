@@ -327,7 +327,8 @@ video {
 	padding: 10;
 	position: fixed;
 	height: 36px;
-  width: 36px;
+  //width: 36px;
+  width: fit-content;
   -webkit-transition: border-color .3s, color .3s;
 	transition: border-color .3s, color .3s;
 
