@@ -34,6 +34,8 @@
   -webkit-transition: .3s ease;
   transition: .3s ease;
   position: absolute;
+  bottom: 0;
+  right: 0;
   display: inline-flex;
   align-items: center;
   &:hover {
@@ -51,6 +53,7 @@
     margin: 0;
     position: absolute;
     right: 0;
+    bottom: 0;
     //top: 87%;
     //-webkit-transform: translateY(-87%);
     //transform: translateY(-87%);
