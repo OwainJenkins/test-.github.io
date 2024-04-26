@@ -333,11 +333,15 @@ video {
   -webkit-transition: border-color .3s, color .3s;
 	transition: border-color .3s, color .3s;
 
-  &:hover,
+  &:hover{
+    background: var(--button-hover-colour);
+    color: var(--light-text-colour);
+  }
+
 	&:focus{
     height:auto;
     width:auto;
-    box-shadow: 0 0 0 4px #5a01a7;
+
   }
 	&:active {
 		border-color: _palette(theme);
