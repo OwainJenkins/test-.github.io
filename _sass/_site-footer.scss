@@ -33,6 +33,7 @@
   text-decoration: none;
   -webkit-transition: .3s ease;
   transition: .3s ease;
+  position: fixed;
   &:hover {
     text-decoration: none;
   }
@@ -46,7 +47,7 @@
 
   .back-to-top {
     margin: 0;
-    position: absolute;
+    position: fixed;
     right: 0;
     //top: 87%;
     //-webkit-transform: translateY(-87%);
