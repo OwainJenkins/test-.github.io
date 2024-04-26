@@ -332,17 +332,7 @@ video {
 	transition: border-color .3s, color .3s;
 
   &:hover,
-	&:focus{
-  outline-color: #FFDD00;
-  background-color: #FD0 !important;
-  color: #000000;
-
-	&:active {
-		border-color: _palette(theme);
-    color: _palette(theme);
-		outline: 0;
-	        }
-        }
+	&:focus,
 }
 
 /* Custom icons */
