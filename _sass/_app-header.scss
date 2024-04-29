@@ -43,7 +43,7 @@
 .app-language-switcher {
   order: 3;
   margin-right: 15px;
-  padding: 3px 8px;
+  //padding: 3px 8px;
 
   @include mq($from: tablet) {
     padding: 5px 15px;
