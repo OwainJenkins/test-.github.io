@@ -45,7 +45,7 @@
     <input type="checkbox" id="tm" class="app-menu__checkbox">
 		<label for="tm" class="tm app-menu__toggle"><span>{{ site.t[page.lang].menu | capitalize }}</span></label>
     <nav class="app-nav">
-      <ul class="app-menu" tabindex="0";>
+      <ul class="app-menu">
         {% for item in site.navigation %}
         {% assign current = nil %}
         {% if page.url == item.url %}
