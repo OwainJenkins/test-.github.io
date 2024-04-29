@@ -31,7 +31,7 @@
 
   <header class="app-top-bar">
     {% if page.url == "/" %}
-    <h3 class="app-title site-title">{{site.t[page.lang].title}}</h3>
+    <h3 class="app-title site-title" align="left">{{site.t[page.lang].title}}</h3>
     {% else %}
     <h3 class="app-title site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.t[page.lang].title}}</a></h3>
     {% endif %}
