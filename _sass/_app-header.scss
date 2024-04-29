@@ -34,12 +34,6 @@
 
     span {
       display: inline-block;
-      &:focus{ 
-        outline-color: #FFDD00;
-        background-color: #FD0 !important;
-        color: #000000;
-        box-shadow: 0 -2px #FFDD00, 0 4px #0B0C0C !important;
-      }
     }
   }
 }
@@ -71,6 +65,12 @@
     width: unset;
     flex-grow: 2;
     order: 2;
+    &:focus{ 
+      outline-color: #FFDD00;
+      background-color: #FD0 !important;
+      color: #000000;
+      box-shadow: 0 -2px #FFDD00, 0 4px #0B0C0C !important;
+    }
   }
 }
 
@@ -95,13 +95,6 @@
 
     &:hover {
       background: darken(#fff, 5);
-    }
-
-    &:focus{ 
-      outline-color: #FFDD00;
-      background-color: #FD0 !important;
-      color: #000000;
-      box-shadow: 0 -2px #FFDD00, 0 4px #0B0C0C !important;
     }
 
     @include mq($from: tablet) {
