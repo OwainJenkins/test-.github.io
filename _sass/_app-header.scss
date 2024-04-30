@@ -18,7 +18,6 @@
     // means nav element has height 0 when collapsed
     float: left;
     opacity: 0;
-    nav-index: -1;
   }
 
   .app-menu__toggle {
@@ -26,6 +25,7 @@
     flex-grow: 2;
     order: 2;
     text-align: right;
+    nav-index: -1;
     
 
     @include mq($from: tablet) {
