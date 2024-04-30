@@ -51,7 +51,7 @@
         {% if page.url == item.url %}
         {% assign current = 'app-menu-item--current' %}
         {% endif %}
-        <li class="app-menu-item {{ current }}" tabindex="1">
+        <li class="app-menu-item {{ current }}" tabindex="0">
           <a class="{{ current }}" href="{{ site.t[page.lang].root }}{{ item.url }}">{{ item[page.lang] | capitalize }}</a>
         </li>
         {% endfor %}        
