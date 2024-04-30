@@ -25,12 +25,12 @@
     flex-grow: 2;
     order: 2;
     text-align: right;
-    nav-index: none;
+    visibility: hidden;
     
 
     @include mq($from: tablet) {
       display: none;
-      
+      visibility: visible;
     }
 
     span {
