@@ -18,7 +18,7 @@
     // means nav element has height 0 when collapsed
     float: left;
     opacity: 0;
-    nav-index: none;
+    nav-index: -1;
   }
 
   .app-menu__toggle {
