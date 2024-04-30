@@ -25,7 +25,6 @@
     flex-grow: 2;
     order: 2;
     text-align: right;
-    visibility: hidden;
     
 
     @include mq($from: tablet) {
