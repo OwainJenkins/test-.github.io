@@ -58,6 +58,7 @@ t:
     power : powered by
     menu: menu
     skip: Skip To Main Content
+    openmenu: open menu
   cy:
     title: Lab Cyfoeth Naturiol Cymru 
     description: "Disgrifiwch eich gwefan"
@@ -74,3 +75,4 @@ t:
     power : wedi ei bweru gan
     menu: bwydlen
     skip: Sgipio I’r Prif Gynnwys
+    openmenu: dewislen agored
