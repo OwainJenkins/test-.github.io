@@ -30,13 +30,6 @@
     flex-grow: 2;
     order: 2;
     text-align: right;
-
-    &:focus{ 
-      outline-color: #FFDD00;
-      background-color: #FD0 !important;
-      color: #000000;
-      box-shadow: 0 -2px #FFDD00, 0 4px #0B0C0C !important;
-      }
     
 
     @include mq($from: tablet) {
@@ -52,6 +45,13 @@
 .app-title {
   margin-left: 15px;
  // order: 1;
+
+ &:focus{ 
+  outline-color: #FFDD00;
+  background-color: #FD0 !important;
+  color: #000000;
+  box-shadow: 0 -2px #FFDD00, 0 4px #0B0C0C !important;
+  }
 }
 
 .app-language-switcher {
