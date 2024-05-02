@@ -42,8 +42,8 @@
     {% include language-switcher.html pages=site.pages %}
     {% endif %}
 
-    <input type="checkbox" id="tm" class="app-menu__checkbox" aria-label="{{ site.t[page.lang].openmenu]}}">
-		<label for="tm" class="tm app-menu__toggle"><span><a>{{ site.t[page.lang].menu | capitalize }}</a></span></label>
+    <a> <input type="checkbox" id="tm" class="app-menu__checkbox" aria-label="{{ site.t[page.lang].openmenu]}}">
+		<label for="tm" class="tm app-menu__toggle"><span>{{ site.t[page.lang].menu | capitalize }}</span></label></a>
     <nav class="app-nav">
       <ul class="app-menu">
         {% for item in site.navigation %}
