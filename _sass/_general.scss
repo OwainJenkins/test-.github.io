@@ -437,7 +437,7 @@ video {
 }
 
 .menuFocus{
-  &:focus{ 
+  focus{ 
     outline-color: #FFDD00;
     background-color: #FD0 !important;
     color: #000000;
