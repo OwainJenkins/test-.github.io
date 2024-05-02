@@ -118,7 +118,7 @@
     }
   }
 
-  .app-menu__checkbox:focus{ 
+  .app-menu__checkbox:focus-within{ 
     outline-color: #FFDD00;
     background-color: #FD0 !important;
     color: #000000;
