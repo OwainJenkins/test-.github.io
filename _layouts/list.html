@@ -12,7 +12,7 @@ layout: default
     {% assign subpages=site.categories[page.section] | where:"lang", page.lang %}
     {% for p in subpages %}
     <li><a href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a></li>
-    <p>by {{p.author}}</p>
+    <br>by {{p.author}}</br>
     {% endfor %}
   </ul>
 
