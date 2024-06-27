@@ -5,6 +5,7 @@ lang: en
 ref: learning-principles
 hidetitle: True
 author: Lucinda
+description: What Lucinda did will shock you!
 ---
 
 These sessions should be:
